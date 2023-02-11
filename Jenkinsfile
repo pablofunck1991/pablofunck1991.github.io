@@ -14,7 +14,7 @@ pipeline {
     }
           stage('makke ls') {
       steps {
-        ls
+        sh 'ls'
       }
     }
   }
