@@ -12,5 +12,10 @@ pipeline {
         git(url: 'https://github.com/pablofunck1991/pablofunck1991.github.io', branch: 'main')
       }
     }
+          stage('makke ls') {
+      steps {
+        ls
+      }
+    }
   }
 }
